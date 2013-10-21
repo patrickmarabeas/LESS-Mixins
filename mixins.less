@@ -164,11 +164,17 @@
 
 
 /****************************************************************
-* 
+* transitions
 ****************************************************************/
 
-
-
+.transition(@p,@dur,@f,@del) {
+	-webkit-transition: @p @dur @f @del;
+	-moz-transition: @p @dur @f @del;
+	-o-transition: @p @dur @f @del;
+	transition: @p @dur @f @del;
+}
+/* property, duration, timing-function, delay */
+/* .transition(width, 0.2s, linear, 0s); */
 
 
 
