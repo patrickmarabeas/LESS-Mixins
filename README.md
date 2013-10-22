@@ -8,3 +8,4 @@ Collection of useLESS mixins
 	.opacity(0.5);
 	.box-sizing(border-box);
 	.triangle(top-left, #007bff, 50px, 40px); //direction, color, height, width
+	.transition(width, 0.2s, linear, 0s); //property, duration, timing-function, delay
