@@ -1,7 +1,7 @@
-LESS-Mixins
+useLESS-Mixins
 ===========
 
-Collection of useLESS mixins
+Collection of LESS mixins
 
 	.border-radius(20px); //less.js 1.4.0-beta + OR lessPHP
 	.border-radius(20px, 20px, 20px, 20px);
