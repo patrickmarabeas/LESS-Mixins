@@ -8,6 +8,8 @@ Collection of LESS mixins
 	.opacity(0.5);
 	.box-sizing(border-box);
 	.transition(width, 0.2s, linear, 0s); //property, duration, timing-function, delay
+	.transform(value);
+	.user-select(value);
 
 	.triangle(top-left, #007bff, 50px, 40px); //direction, color, height, width
 
